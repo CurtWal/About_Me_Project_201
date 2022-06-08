@@ -74,17 +74,17 @@ if(questionTwo==anw2){
                      alert("Your guess was " + questionSix + ". That's too low. Try Again!")
                    }
                  }
-                 for(let i = 0; i<6; i++){
-                    let question = prompt('animals');
-                    let anw7 = ("dog");
-                    if(question == anw7){
+                   for(let i = 0; i<6; i++){
+                    let num = /['1', '3', '5', '7' , '9']/;
+                    let question = prompt('What is one odd number from these choices : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10');
+                    if(question.match(num)){
                         score = score + 1
-                        alert("correct your final score is:" + score)
+                        alert('Right!!! your final score is: ' + score)
                         break;
                     }else{
-                        alert('wrong')
+                        alert('wrong! Try again');
                     }
-                   }
+                     }
 }
 game() 
 
@@ -164,3 +164,34 @@ game()
 // }
 // }
 // game()
+
+
+// function (){
+//     let num = ['1', '3', '5'];
+//     let question = prompt('1 to 10');
+//     // for(let m = 0; m<6; m++)
+//     for(let i = 0; i<num.length; i++){
+//         if(question === num[i])
+//         result = true;
+//     }
+//     if(result){
+//         alert("right");
+//     }else{
+//         alert("no")
+// }
+// }
+
+// function game2(){
+//     for(let i = 0; i<6; i++){
+// let num = /['1', '3', '5', '7' , '9']/;
+// let question = prompt('Guess a odd number between 1 and 10');
+// if(question.match(num)){
+//     score = score + 1
+//     alert('yup')
+//     break;
+// }else{
+//     alert('nope')
+// }
+//  }
+// }
+// game2()
