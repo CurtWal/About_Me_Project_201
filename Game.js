@@ -68,9 +68,10 @@ if(questionTwo==anw2){
                         score = score + 1
                         alert("You got it right! Your score is: " + score);
                         break;
-                    } else (questionSix > 4);{
+                        // this else if below want run? the other does
+                    } else if (questionSix > 4){
                       alert("Your guess was " + question + ". That's too high. Try Again!")
-                    }if(questionSix < 4);{
+                    } else if(questionSix < 4);{
                      alert("Your guess was " + questionSix + ". That's too low. Try Again!")
                    }
                  }
