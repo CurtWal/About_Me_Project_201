@@ -1,46 +1,61 @@
-html, body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-body{
+body {
     background-color: lightblue;
 }
 
-h1{
-  margin: 2px;
-  padding: 3px;
-  border: 2px;
-  border-style: solid;
-  text-align: center;
-}
-p{
+h1 {
     margin: 2px;
     padding: 3px;
     border: 2px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: orange;
+    border-radius: 60px;
     text-align: center;
+    text-shadow: 1px 1px 1px orange, 2px 2px 1px pink;
+
 }
 
-h3{
-    margin: 2px;
+p {
+    margin: 5px;
+    padding: 3px;
+    border: 2px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+h3 {
+    margin: 5px;
     padding: 3px;
     border: 2px;
     text-align: center;
     font-family: Arial;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px orange, 2px 2px 1px pink;
+
+
 }
-ul{
-    margin: 2px;
+
+ul {
+    margin: 5px;
     padding: 3px;
     border: 2px;
     text-align: center;
-    list-style-position:inside;
+    list-style-position: inside;
+    font-size: large;
 }
 
-ol{
-    margin: 2px;
+ol {
+    margin: 5px;
     padding: 3px;
     border: 2px;
     text-align: center;
-    list-style-position:inside;
-
+    list-style-position: inside;
+    font-size: large;
 }
